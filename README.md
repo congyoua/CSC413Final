@@ -47,7 +47,7 @@ Actual prediction: anger
 
 # Data
 
-The data we used in our analysis is an adapted version of the GoEmotions dataset, which was originally compiled by Google Research and contains human-annotated emotion data for analysis purposes. This dataset comprises 58,000 comments from Reddit, each labelled with one of 28 emotion categories. The GoEmotions dataset is publicly available on its official GitHub repository (GitHub) under the Apache License 2.0, which grants us permission to use, modify, and further develop the data for any purpose, including commercial use, provided we give credit appropriate credit.
+The data we used in our analysis is an adapted version of the GoEmotions dataset, which was originally compiled by Google Research and contains human-annotated emotion data for analysis purposes. This dataset comprises 58,000 comments from Reddit, each labelled with one of 28 emotion categories. The GoEmotions dataset is publicly available on its official GitHub repository ([GitHub](https://github.com/google-research/google-research/tree/master/goemotions)) under the Apache License 2.0, which grants us permission to use, modify, and further develop the data for any purpose, including commercial use, provided we give credit appropriate credit.
 
 <p align="center"><img src="./imgs/3.png" width=50% height=50%><br>Data Example</p>
 
@@ -233,10 +233,18 @@ Given the implications of statistical modelling, it is important to consider and
 
 In essence, the development of our emotion classification model comes with numerous ethical considerations. Ensuring responsible development and deployment of this technology requires addressing privacy, bias, fairness, misuse, accountability, and consent concerns. By considering these ethical aspects, we aim to create a model that respects user rights and contributes positively to the different applications of the technology.
 
-# Authors</span>
+# Authors
 
 * Momin Naseem - Responsible for data augmentation, ethics and model part of the final write-up.
 
 * Wentao Zhou - Responsible for tokenization, model building, training and fine-tuning, result evaluation, and training part of the writeup.
 
 * Youan Cong - Responsible for model design, preliminary experiments, data management and pre-processing, resolving data imbalance, and other parts of writeup.
+
+## References
+
+* Demszky, D., Movshovitz-Attias, D., Ko, J., Cowen, A. S., Nemade, G., & Ravi, S. (2020). GoEmotions: A Dataset of Fine-Grained Emotions. CoRR, abs/2005.00547.
+
+* Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. CoRR, abs/1810.04805.
+
+* Sanh, V., Debut, L., Chaumond, J., & Wolf, T. (2019). DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter. CoRR, abs/1910.01108.
